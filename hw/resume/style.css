@@ -20,6 +20,7 @@ table {
   background: green;
   max-height: 50px;
   padding: 30px;
+  margin-left: 1%;
 }
 
 .back a {
@@ -35,10 +36,11 @@ table {
   background: orange;
   max-height: 50px;
   color: white;
+  text-align: center;
   padding: 30px;
   font-family: Arial;
   line-height: 15px;
-  width: 70%;
+  width: 85%;
 }
 a:hover {
   color: orange;
