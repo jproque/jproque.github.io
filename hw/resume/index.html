@@ -3,47 +3,60 @@
 
 <head>
   <meta name="author" content="John Roque's Resume">
-  <meta name="description" content="This is the professional resume and profile of John Roque. It lists his work experience and interests, along with a photo of him and a short paragraph of himself." <title>Assignment 2 - Resume</title>
+  <meta name="description" content="This is the professional resume and profile of John Roque. It lists his work experience and interests, along with a photo of him and a short paragraph of himself."
+  <title>Assignment 2 - Resume</title>
+  <link rel="stylesheet" href="style.css">
 </head>
 
 <body>
-  <a href="../../index.html">Back</a>
-  <h1>John "JP" Roque</h1>
-  <!-- JP is my nickname  because my middle name is Paul -->
-  <h2>About Me</h2>
-  <p>
+<div class="wrapper">
+  <div class="back">
+    <a href="../../index.html">Back</a>
+  </div>
+  <div class="header">
+    <h1>John "JP" Roque</h1>
+    <!-- JP is my nickname  because my middle name is Paul -->
+  </div>
+</div>
+  <h2 id="aboutme">About Me</h2>
+  <p id="aboutmep">
     With my focus in Marketing and my passion for Entrepreneurship and Creativity, my goal is to use my skills to think of innovative ways to enhance already existing companies or help grow a developing one. I chose Marketing because of the opportunity to
     creatively approach data-driven business development and branding decisions.
   </p>
-  <img src="https://static.wixstatic.com/media/40a027_7a47abec18284ad7825f6f840c568b1f~mv2.png/v1/crop/x_0,y_71,w_972,h_972/fill/w_940,h_940,al_c,q_85,usm_0.66_1.00_0.01/40a027_7a47abec18284ad7825f6f840c568b1f~mv2.webp" alt="John Roque in Spain" width="500">
+  <img id="profpic" src="https://static.wixstatic.com/media/40a027_7a47abec18284ad7825f6f840c568b1f~mv2.png/v1/crop/x_0,y_71,w_972,h_972/fill/w_940,h_940,al_c,q_85,usm_0.66_1.00_0.01/40a027_7a47abec18284ad7825f6f840c568b1f~mv2.webp" alt="John Roque in Spain" width="500">
 
-  <h2>Work Experience</h2>
-  <ul>
-    <li><b>September 2018 - Present</b></li>
-    <b>Integral Construction Group, Inc.</b><br> I am further developing its website and marketing campaigns. I have started a new paperless initiative where we are using Microsoft OneDrive to save and share all of our documents. I have developed the
-    file infrastructure and have taught all the employees to use it. It has been adopted with opens arms thus far with minimal issues. On top of that, I manage the accounting department.</li>
-    <br><br>
-    <li><b>July 2018 - August 2018</b><br>
-      <b>LAB Miami Ventures</b><br> I conducted market research and wrote a White Paper that goes into depth about the current investment trends, the current tech trends, the biggest startups, the largest corporations, and the industry pain points and
+  <h2 id="workexp">Work Experience</h2>
+  <table>
+    <tr>
+      <td><b>September 2018 - Present</b></td>
+    </tr>
+    <tr>
+      <b>Integral Construction Group, Inc.</b>
+    </tr>
+    <tr>
+      <td><p class="Integral2"> I am further developing its website and marketing campaigns. I have started a new paperless initiative where we are using Microsoft OneDrive to save and share all of our documents. I have developed the file infrastructure and have taught all the employees to use it. It has been adopted with opens arms thus far with minimal issues. On top of that, I manage the accounting department.</p></td>
+  </tr>
+    <tr><b>July 2018 - August 2018</b><br>
+      <b>LAB Miami Ventures</b><p class="LAB"> I conducted market research and wrote a White Paper that goes into depth about the current investment trends, the current tech trends, the biggest startups, the largest corporations, and the industry pain points and
       opportunities. I also worked with the marketing team to design marketing assets such as event logos, website graphics, social media graphics, and stickers.</li>
     <br>
     <li><b>May 2018 - Present</b><br>
-      <b>Freelance</b> <br>I have designed logos, websites, and branding for my clients. I designed the logo for Bela's BellyBands. I designed the logo and website of Three-0-Five Boutique. I'm currently designing a website for Right Now Air Solutions</li>
+      <b>Freelance</b> <p class="Freelance">I have designed logos, websites, and branding for my clients. I designed the logo for Bela's BellyBands. I designed the logo and website of Three-0-Five Boutique. I'm currently designing a website for Right Now Air Solutions</li>
     <br>
     <li><b>May 2015 - May 2018</b><br>
-      <b>Integral Construction Group, Inc.</b><br>I delivered company contracts, plans, paperwork, tools, building materials to over 30 jobs sites and ensured accurate deliveries within tight time constraints (mostly early morning
-      deliveries). I also managed follow-up communications with sub-contractors for bids. Lastly, I built and maintained the website <a href="https://www.integralcgi.com">(www.integralcgi.com)</a>, Facebook page, and LinkedIn profile. I'm proud to say that the
-      website directly and indirectly earned 5 significant construction projects.</li></ul>
-  <h2>Interests</h2>
-  <ul>
-  <li>Basketball</li>
-  <li>Movies</li>
-  <li>Web Development & Design</li>
-  <li>Entrepreneurship</li>
-  <li>Graphic Design</li>
-</ul>
-<h2>Contact</h2>
-<table>
+      <b>Integral Construction Group, Inc.</b><p class="Integral">I delivered company contracts, plans, paperwork, tools, building materials to over 30 jobs sites and ensured accurate deliveries within tight time constraints (mostly early morning
+      deliveries). I also managed follow-up communications with sub-contractors for bids. Lastly, I built and maintained the website <a href="https://www.integralcgi.com" class="intwebsite">(www.integralcgi.com)</a>, Facebook page, and LinkedIn profile. I'm proud to say that the
+      website directly and indirectly earned 5 significant construction projects.</li></table>
+  <h2 id="interests">Interests</h2>
+  <p id="interestlist">
+    Basketball<br>
+    Movies<br>
+    Web Development & Design<br>
+    Entrepreneurship<br>
+    Graphic Design<br>
+  </p>
+<h2 id="contact">Contact</h2>
+<table id="contactinfo">
   <tr>
     <td><address>
     John Roque <br>
@@ -57,7 +70,7 @@
   <tr>
     <td>jpr@website.com</td>
   </tr>
-
+</table>
 </body>
 
 </html>
