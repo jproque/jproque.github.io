@@ -1,0 +1,39 @@
+body {
+  background-color: white;
+  background-size: contain;
+  }
+
+.navlinks {
+  list-style-type: none;
+}
+
+.navlinks a {
+  color: white;
+}
+.navlinks a:hover {
+  color: green;
+}
+.navlinks a:active {
+  color: green;
+  font-weight: 400;
+}
+
+#homepagemessage {
+    color: white;
+}
+
+#rnanumberhomepg {
+  color: white;
+}
+
+#mainproadvwords {
+  abackground-color: #38B160;
+  color: black;
+}
+#mainproadvanchor {
+  abackground-color: #38B160;
+  border: 3px solid #38B160;
+  color: #38B160;
+  font-weight: bold;
+  background-size: cover;
+}
