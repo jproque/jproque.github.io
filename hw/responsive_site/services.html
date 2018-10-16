@@ -4,7 +4,8 @@
     <meta charset="utf-8">
     <title>About</title>
     <link rel="stylesheet" href="css/colors.css">
-    <link rel="stylesheet" href="css/desktop.css">
+    <link rel="stylesheet" media="screen and (min-width:961px)" href="css/desktop.css">
+    <link rel="stylesheet" media="screen and (max-width:960px)" href="css/phone.css">
     <style media="screen">
       .menubar {background-color: black; height: 100px;}
       .navlinks {line-height: 20px;}
@@ -15,6 +16,8 @@
       <div class="menubar">
         <img id="rnalogo" src="images/rna_logo_white.png" alt="Right Now Air Logo">
         <nav>
+          <label for="drop" class="toggle">MENU</label>
+          <input type="checkbox" id="drop" />
           <ul class="navlinks">
             <li>
               <a href="index.html">HOME</a>

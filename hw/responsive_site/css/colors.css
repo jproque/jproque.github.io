@@ -1,7 +1,11 @@
 body {
+  margin: 0; padding: 0
+}
+
+.wrapper {
   background-color: white;
   background-size: contain;
-  }
+}
 
 .navlinks {
   list-style-type: none;
@@ -36,4 +40,34 @@ body {
   color: #38B160;
   font-weight: bold;
   background-size: cover;
+}
+
+#whowearetitle {
+  color: #38B160;
+}
+
+.wwahardworking div {
+  border-right: 3px solid #38B160;
+  padding-right: 50px;
+  border-left: 3px solid #38B160;
+  padding-left: 50px;
+}
+
+.wwdcomhvacmain div {
+    border-right: 3px solid #38B160;
+    padding-right: 50px;
+}
+
+.wwdnewunitinstalls div {
+  border-left: 3px solid #38B160;
+  padding-left: 50px;
+}
+
+#wwahardworking {
+  border-right-color: grey;
+  border-left-color: grey;
+}
+
+#whatwedotitle {
+  color: #38B160;
 }

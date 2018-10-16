@@ -4,6 +4,7 @@ body {
   font-family: 'Open Sans', sans-serif;
   overflow-x: hidden;
 }
+
 .wrapper {
   display: block;
   width: 100%;
@@ -12,9 +13,10 @@ body {
 }
 
 /* Beginning of Homepage CSS */
+
 .topofhomepage {
   display: block;
-  background-image: linear-gradient(rgba(0, 0, 0,.5), rgba(0, 0, 0,.5)), url("https://cdn5.balboacapital.com/uploads/2017/11/hvac-equipment-on-rooftop.jpg");
+  background-image: linear-gradient(rgba(0, 0, 0, .5), rgba(0, 0, 0, .5)), url("https://cdn5.balboacapital.com/uploads/2017/11/hvac-equipment-on-rooftop.jpg");
   background-repeat: no-repeat;
   background-size: cover;
   background-position: bottom;
@@ -30,6 +32,9 @@ body {
   margin-top: 25px;
 }
 
+.toggle, [id=drop] {
+  display: none;
+}
 nav {
   display: inline-block;
   vertical-align: top;
@@ -39,12 +44,15 @@ nav {
   margin-top: 25px;
   height: 50px;
 }
+
 .navlinks {
   list-style-type: none;
 }
+
 .navlinks li {
   display: inline;
 }
+
 .navlinks a {
   text-decoration: none;
   padding: 10px;
@@ -64,16 +72,21 @@ nav {
   display: block;
   width: 100%;
   text-align: center;
-  font-size: 20;
+  font-size: 30px;
   padding-bottom: 50px;
   padding-bottom: 100px;
 }
 
+.mainproadv {
+  display: block;
+  border-width: medium;
+  margin: 0px;
+}
 #mainproadvwords {
   display: inline-block;
   width: 60%;
   height: 70px;
-  font-size: 40px;
+  font-size: 35px;
   text-align: left;
   vertical-align: top;
   margin: 0px;
@@ -99,14 +112,13 @@ nav {
   display: block;
   text-align: center;
   margin-top: 100px;
-  font-size: 60px;
+  font-size: 40px;
 }
 
-}
 .whoweareind {
-  display: inline;
+  display: table;
   text-align: center;
-  width: 100%
+  width: 100%;
 }
 
 td {
@@ -115,109 +127,106 @@ td {
   text-align: center;
 }
 
+#wwahardworking {
+  display: table-cell;
+  border-right-style: solid;
+  border-right-width: thick;
+  border-left-style: solid;
+  border-left-width: medium;
+}
+
 #whatwedotitle {
   display: block;
   text-align: center;
   margin-top: 100px;
-  font-size: 60px;
-/* End of homepage CSS*/
-
-/* Beginning of About Page CSS */
-.aboutpgtitle {
-  display: block;
-  text-align: center;
-  font-size: 30px;
-  background-image: linear-gradient(rgba(0, 0, 0, 1), rgba(56, 177, 96, 1));
-  padding: 25px;
-  color: white;
+  font-size: 40px;
 }
-
-.whoweareaboutpg {
-  display: block;
-  vertical-align: top;
-  width: 30%;
-  min-height: 500px;
-  height: 100%;
-  margin-bottom: 10px;
-  padding: 30px;
-  box-sizing: border-box;
-  text-decoration: none;
-  list-style-type: none;
-  text-align: center;
-  margin: auto;
-  margin-bottom: 0;
-}
-
-.right {
-  display: block;
-  vertical-align: top;
-  width: 20%;
-  margin: auto;
-  margin-top: 0;
-}
-/* Ending of About Page CSS */
-
-/* Beginning of Services Page CSS*/
-.servicespgtitle {
-  display: block;
-  text-align: center;
-  font-size: 30px;
-  background-image: linear-gradient(rgba(0, 0, 0, 1), rgba(56, 177, 96, 1));
-  padding: 25px;
-  color: white;
-}
-
-.wespecializein {
-  text-align: center;
-  font-size: 20px;
-}
-
-.wespecializeinleft {
-  display: inline-block;
-  vertical-align: top;
-  width: 40%;
-  min-height: 500px;
-  height: 100%;
-  margin-bottom: 10px;
-  padding: 30px;
-  box-sizing: border-box;
-  text-decoration: none;
-  list-style-type: none;
-}
-
-.wespecializeinright {
-  display: inline-block;
-  vertical-align: top;
-  width: 40%;
-  min-height: 500px;
-  height: 100%;
-  margin-bottom: 10px;
-  padding: 30px;
-  box-sizing: border-box;
-  text-decoration: none;
-  list-style-type: none;
-}
-/* Ending of Serivces Page CSS*/
-
-/* Beginning of Contact Page */
-.contactpgtitle {
-  display: block;
-  text-align: center;
-  font-size: 30px;
-  background-image: linear-gradient(rgba(0, 0, 0, 1), rgba(56, 177, 96, 1));
-  padding: 25px;
-  color: white;
-}
-
-.addresstitle, .callustitle, .officehourstitle {
-  display: block;
-  font-size:20px;
-  text-align: center;
-}
-
-.contactaddress, .calluspgphone, .officehours {
-  display: block;
-  text-align: center;
-  font-style: normal;
-  font-size: 18px;
-}
+  /* End of homepage CSS*/
+  .aboutpgtitle {
+    text-align: center;
+    font-size: 30px;
+    background-image: linear-gradient(rgba(0, 0, 0, 1), rgba(56, 177, 96, 1));
+    padding: 25px;
+    color: white;
+  }
+  .whoweareaboutpg {
+    display: block;
+    vertical-align: top;
+    width: 30%;
+    min-height: 500px;
+    height: 100%;
+    margin-bottom: 10px;
+    padding: 30px;
+    box-sizing: border-box;
+    text-decoration: none;
+    list-style-type: none;
+    text-align: center;
+    margin: auto;
+    margin-bottom: 0;
+  }
+  .right {
+    display: block;
+    vertical-align: top;
+    width: 20%;
+    margin: auto;
+    margin-top: 0;
+  }
+  /* Ending of About Page CSS */
+  /* Beginning of Services Page CSS*/
+  .servicespgtitle {
+    display: block;
+    text-align: center;
+    font-size: 30px;
+    background-image: linear-gradient(rgba(0, 0, 0, 1), rgba(56, 177, 96, 1));
+    padding: 25px;
+    color: white;
+  }
+  .wespecializein {
+    text-align: center;
+    font-size: 20px;
+  }
+  .wespecializeinleft {
+    display: inline-block;
+    vertical-align: top;
+    width: 40%;
+    min-height: 500px;
+    height: 100%;
+    margin-bottom: 10px;
+    padding: 30px;
+    box-sizing: border-box;
+    text-decoration: none;
+    list-style-type: none;
+  }
+  .wespecializeinright {
+    display: inline-block;
+    vertical-align: top;
+    width: 40%;
+    min-height: 500px;
+    height: 100%;
+    margin-bottom: 10px;
+    padding: 30px;
+    box-sizing: border-box;
+    text-decoration: none;
+    list-style-type: none;
+  }
+  /* Ending of Serivces Page CSS*/
+  /* Beginning of Contact Page */
+  .contactpgtitle {
+    display: block;
+    text-align: center;
+    font-size: 30px;
+    background-image: linear-gradient(rgba(0, 0, 0, 1), rgba(56, 177, 96, 1));
+    padding: 25px;
+    color: white;
+  }
+  .addresstitle, .callustitle, .officehourstitle {
+    display: block;
+    font-size: 20px;
+    text-align: center;
+  }
+  .contactaddress, .calluspgphone, .officehours {
+    display: block;
+    text-align: center;
+    font-style: normal;
+    font-size: 18px;
+  }

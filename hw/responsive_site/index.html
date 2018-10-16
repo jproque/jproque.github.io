@@ -5,7 +5,8 @@
   <meta charset="utf-8">
   <title>homepage</title>
   <link rel="stylesheet" href="css/colors.css">
-  <link rel="stylesheet" href="css/desktop.css">
+  <link rel="stylesheet" media="screen and (min-width:961px)" href="css/desktop.css">
+  <link rel="stylesheet" media="screen and (max-width:960px)" href="css/phone.css">
 </head>
 
 <body>
@@ -15,6 +16,8 @@
       <div class="menubar">
         <img id="rnalogo" src="images/rna_logo_white.png" alt="Right Now Air Logo">
         <nav>
+          <label for="drop" class="toggle">MENU</label>
+          <input type="checkbox" id="drop" />
           <ul class="navlinks">
             <li>
               <a href="index.html">HOME</a>
@@ -34,37 +37,39 @@
       <p id="homepagemessage"><b>YOUR HVAC & <br>ENERGY MANAGEMENT <br>SPECIALISTS</b></p>
       <p id="rnanumberhomepg">(305) 409-4443</p>
     </div>
-    <div class="mainproadv">
-      <p id="mainproadvwords">CHECK OUT OUR MAINTENANCE PROGRAM TO SEE HOW WE CAN HELP YOU</p>
+    <div id="mainproadvwords">
+      <p>CHECK OUT OUR MAINTENANCE PROGRAM TO SEE HOW WE CAN HELP YOU</p>
+    </div>
+    <div>
       <a id="mainproadvanchor" href="#">FIND OUT MORE</a>
     </div>
     <div class="whoweare">
       <h1 id="whowearetitle">WHO WE ARE</h1>
       <table style="margin: 0px auto;" class="whoweareind">
-        <td>
-          <p id="wwaprofessional"><h2>Professional</h2>We are consistent,<br>responsible, but above all, we<br>do it RIGHT and we do it NOW</p>
-        </td>
-        <td>
-          <p id="wwahardworking"><h2>Hard Working</h2>We are geared to your<br>industry and understand the<br>importance of working<br>efficiently</p>
-        </td>
-        <td>
-          <p id="wwafriendly"><h2>Friendly</h2>We speak English, Spanish, &<br>Portuguese so we can clearly<br>communicate with you</p>
-        </td>
+        <td class="wwaprofessional"><div>
+          <p><h2>Professional</h2>We are consistent,<br>responsible, but above all, we<br>do it RIGHT and we do it NOW</p>
+        </div></td>
+        <td class="wwahardworking"><div>
+          <p><h2>Hard Working</h2>We are geared to your<br>industry and understand the<br>importance of working<br>efficiently</p>
+        </div></td>
+        <td class="wwafriendly"><div>
+          <p><h2>Friendly</h2>We speak English, Spanish, &<br>Portuguese so we can clearly<br>communicate with you</p>
+        </div></td>
       </table>
     </div>
 
     <div class="whatwedo">
       <h1 id="whatwedotitle">WHAT WE DO</h1>
       <table style="margin: 0px auto;" class="whatwedoind">
-        <td>
-          <h2 id="wwdcomhvacmain">Commerical HVAC Maintenance</h2>
-        </td>
-        <td>
-          <h2 id="wwdcombuildouts">Commerical Build-Outs</h2>
-        </td>
-        <td>
-          <h2 id="wwdnewunitinstalls">New Unit Installs</h2>
-        </td>
+        <td class="wwdcomhvacmain"><div>
+          <h2>Commerical HVAC Maintenance</h2>
+        </div></td>
+        <td class="wwdcombuildouts"><div>
+          <h2>Commerical Build-Outs</h2>
+        </div></td>
+        <td class="wwdnewunitinstalls"><div>
+          <h2>New Unit Installs</h2>
+        </div></td>
       </table>
     </div>
 
