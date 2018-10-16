@@ -127,12 +127,11 @@ td {
   text-align: center;
 }
 
-#wwahardworking {
-  display: table-cell;
-  border-right-style: solid;
-  border-right-width: thick;
-  border-left-style: solid;
-  border-left-width: medium;
+.wwahardworking div {
+  border-right: 3px solid #38B160;
+  padding-right: 50px;
+  border-left: 3px solid #38B160;
+  padding-left: 50px;
 }
 
 #whatwedotitle {
@@ -140,6 +139,13 @@ td {
   text-align: center;
   margin-top: 100px;
   font-size: 40px;
+}
+
+.wwdnewunitinstalls div {
+  border-right: 3px solid #38B160;
+  padding-right: 50px;
+  border-left: 3px solid #38B160;
+  padding-left: 50px;
 }
   /* End of homepage CSS*/
   .aboutpgtitle {

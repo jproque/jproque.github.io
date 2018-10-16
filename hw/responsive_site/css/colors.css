@@ -46,21 +46,13 @@ body {
   color: #38B160;
 }
 
-.wwahardworking div {
-  border-right: 3px solid #38B160;
-  padding-right: 50px;
-  border-left: 3px solid #38B160;
-  padding-left: 50px;
-}
-
-.wwdcomhvacmain div {
-    border-right: 3px solid #38B160;
-    padding-right: 50px;
-}
-
-.wwdnewunitinstalls div {
-  border-left: 3px solid #38B160;
-  padding-left: 50px;
+#whowearetitle:after {
+    content: ""; /* This is necessary for the pseudo element to work. */
+    display: block; /* This will put the pseudo element on its own line. */
+    margin: 0 auto; /* This will center the border. */
+    width: 10%; /* Change this to whatever width you want. */
+    padding-top: 20px; /* This creates some space between the element and the border. */
+    border-bottom: 3px solid #38B160; /* This creates the border. Replace black with whatever color you want. */
 }
 
 #wwahardworking {
@@ -70,4 +62,13 @@ body {
 
 #whatwedotitle {
   color: #38B160;
+}
+
+#whatwedotitle:after {
+    content: ""; /* This is necessary for the pseudo element to work. */
+    display: block; /* This will put the pseudo element on its own line. */
+    margin: 0 auto; /* This will center the border. */
+    width: 10%; /* Change this to whatever width you want. */
+    padding-top: 20px; /* This creates some space between the element and the border. */
+    border-bottom: 3px solid #38B160; /* This creates the border. Replace black with whatever color you want. */
 }

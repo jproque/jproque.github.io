@@ -28,7 +28,7 @@ body {
 #rnalogo {
   display: block;
   vertical-align: top;
-  height: 50px;
+  height: 70px;
   margin: 0 auto;
   padding: 25px;
 }
@@ -133,17 +133,15 @@ body {
 }
 
 .whoweareind {
-  display: table;
+  display: block;
   text-align: center;
   width: 100%;
+  box-sizing: border-box;
 }
 
 td {
-  padding-left: 25px;
-  padding-right: 25px;
+  display: block;
   text-align: center;
-  margin: 0px;
-
 }
 
 #whatwedotitle {
@@ -153,13 +151,6 @@ td {
   font-size: 40px;
 }
 
-.whatwedoind {
-  display: table;
-  width: 100%;
-  text-align: center;
-  padding: 0px;
-  margin: 0px;
-}
   /* End of homepage CSS*/
   .aboutpgtitle {
     text-align: center;
