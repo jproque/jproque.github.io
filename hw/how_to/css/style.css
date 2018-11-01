@@ -1,0 +1,74 @@
+body {
+  background: #F1F1F1;
+}
+p {
+  font-family: sans-serif, Comic;
+}
+#beef1 {
+  font-size: 60px;
+  color: #ff8400;
+}
+img {
+  max-width: 100%;
+}
+.totalsteps {
+  display: inline-block;
+  padding: 3px;
+  color: #08ad1c;
+  text-align: center;
+  width: 30px;
+  height: 30px;
+  line-height: 30px;
+  font-size:35px;
+}
+.steps > p {
+  text-align: center;
+}
+p img {
+  width:400px;
+  margin: 20px auto;
+  display: block;
+}
+
+h1 {
+  width: 640px;
+  max-width: 100%;
+  text-align: center;
+  margin: 20px auto;
+  font-family: sans-serif, Comic;
+}
+.steps {
+  display: block;
+  width: 640px;
+  max-width: 100%;
+  margin-left: auto;
+  margin-right: auto;
+  padding: 20px;
+  border: 1px solid #CCCCCC;
+  background: #FFFFFF;
+  box-sizing: border-box;
+}
+.steps li {
+  list-style-type: none;
+}
+.controls {
+  display: block;
+  width: 640px;
+  max-width: 100%;
+  margin: 20px auto;
+}
+button {
+  width: 100px;
+  height: 40px;
+}
+#end1 {
+  color: #ff8400;
+}
+#end2 {
+  color: #08ad1c;
+  font-size: 25px;
+}
+#end3 {
+  color: #ff8400;
+  font-size: 20px;
+}
