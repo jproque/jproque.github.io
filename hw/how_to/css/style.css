@@ -61,6 +61,18 @@ button {
   width: 100px;
   height: 40px;
 }
+#step6left {
+  display: inline-block;
+  width: 30%;
+  margin: 5%;
+  box-sizing: border-box;
+}
+#step6right {
+  display: inline-block;
+  width: 40%;
+  margin: 5%;
+  box-sizing: border-box;
+}
 #end1 {
   color: #ff8400;
 }

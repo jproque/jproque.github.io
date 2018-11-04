@@ -1,5 +1,5 @@
 // Variable to track the # of steps
-var totalsteps = 5;
+var totalsteps = 6;
 
 // Track which step should be displayed
 var currentstep = 0;
@@ -11,7 +11,7 @@ $(function(){
   $('.totalsteps').html(totalsteps);
 
   // hide the steps
-  $('.steps li, .end, .controls, #prev, #finish').hide();
+  $('.steps li, .end, .controls, #prev, #finish, #wronganswer, #rightanswer').hide();
 });
 
 // click events
@@ -66,6 +66,28 @@ $('#prev').on('click' , function(){
  if(currentstep != totalsteps){
    $('#finish').hide();
  }
+});
+
+// Click on step6left
+$('#step6left').on('click' , function(){
+ $('#rightanswer').show();
+ $('#wronganswer').hide();
+});
+
+// Click on rightanswer
+$('#rightanswer').on('click' , function(){
+ $('#rightanswer').hide();
+});
+
+// Click on step6right
+$('#step6right').on('click' , function(){
+ $('#wronganswer').show();
+ $('#rightanswer').hide();
+});
+
+// Click on wronganswer
+$('#wronganswer').on('click' , function(){
+  $('#wronganswer').hide();
 });
 
 // Click on Finish
